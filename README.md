@@ -1,6 +1,6 @@
 # FANGCHENG
 
-Fangcheng is a pure-Cairo **solver** of systems of linear equations in fixed-point arithmetic. It currently uses naive methods such as Gauss-Jordan, and also provides a set of **primitives** for elementary matrix operations. It will grow gradually, and we will incorporate in the future more primitives and faster and cheaper methods of resolution.
+FangCheng is a pure-Cairo **solver** of systems of linear equations in fixed-point arithmetic. It currently uses naive methods such as Gauss-Jordan, and also provides a set of **primitives** for elementary matrix operations. It will grow gradually, and we will incorporate in the future more primitives and faster and cheaper methods of resolution.
 
 **V0.1**(2022-08-24): Working solver of linear systems. Facilities for importing and processing matrices. 
 
@@ -23,7 +23,7 @@ and then run it with a sample augmented matrix that represents your system of ch
 you’ll see the input matrix, the canonical/echelon form matrix and the set of solutions.
 
 
-why the name?: Fancheng (something like square arrays) is the name given by ancient Chinese mathematicians to the procedure for solving systems of linear equations, essentially equivalent to modern methods of Gaussian elimination.
+why the name?: FangCheng (something like square arrays) is the name given by ancient Chinese mathematicians to the procedure for solving systems of linear equations, essentially equivalent to modern methods of Gaussian elimination.
 
 Actual scope: This project is part of a general research on compact numerical methods in acccordance to Cairo architecture constraints.
 
