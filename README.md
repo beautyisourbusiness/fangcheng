@@ -6,7 +6,9 @@ Fangcheng is a pure-Cairo **solver** of systems of linear equations in fixed-poi
 
 **Future work**
 Features: More primitives and std matrix functions will be supported like determinants, eigenvalues, calc of condition numbers, basic lp, etc. Compatibility tests. Cheaper and faster decomposition methods benchmarking. 
+
 Internals: integrated testing, refactor code to improve readability, more std lib structure
+
 
 To view a sample demo of resolution, you can:
 
