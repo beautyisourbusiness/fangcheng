@@ -1,4 +1,4 @@
-#Fangcheng
+###Fangcheng
 
 Fangcheng is a pure-Cairo **solver** of systems of linear equations in fixed-point arithmetic. It currently uses naive methods such as Gauss-Jordan, and also provides a set of **primitives** for elementary matrix operations. It will grow gradually, and we will incorporate in the future more primitives and faster and cheaper methods of resolution.
 
@@ -11,10 +11,14 @@ Internals: integrated testing, refactor code to improve readability, more std li
 To view a sample demo of resolution, you can:
 
 `cairo-compile matrix_test.cairo --output test.json`
-and then run it with a sample augmented matrix that represents your system of choice, like:
-`cairo-run --program=test.json --layout=all --program_input=samplesystems/augm_matrix3x4.json`
-you’ll see the input matrix, the canonical/echelon form matrix and the set of solutions.
 
+
+and then run it with a sample augmented matrix that represents your system of choice, like:
+
+`cairo-run --program=test.json --layout=all --program_input=samplesystems/augm_matrix3x4.json`
+
+
+you’ll see the input matrix, the canonical/echelon form matrix and the set of solutions.
 
 
 why the name?: Fancheng (something like square arrays) is the name given by ancient Chinese mathematicians to the procedure for solving systems of linear equations, essentially equivalent to modern methods of Gaussian elimination.
