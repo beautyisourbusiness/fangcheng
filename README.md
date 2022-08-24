@@ -1,4 +1,5 @@
-#FANGCHENG"
+# FANGCHENG
+
 Fangcheng is a pure-Cairo **solver** of systems of linear equations in fixed-point arithmetic. It currently uses naive methods such as Gauss-Jordan, and also provides a set of **primitives** for elementary matrix operations. It will grow gradually, and we will incorporate in the future more primitives and faster and cheaper methods of resolution.
 
 **V0.1**(2022-08-24): Working solver of linear systems. Facilities for importing and processing matrices. 
